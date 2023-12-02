@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@700&family=Cormorant+Garamond:wght@300&family=Gabarito&family=Lobster&family=Nosifer&family=Open+Sans:wght@300&family=Playpen+Sans:wght@200&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,500;1,900&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <style>
+        .load {
+            display:flex;
+            margin-bottom: 50px;
+            justify-content: center;
+        }
+        .green, .white {
+            width:250px;
+            height:50px;
+            border:2px solid black;
+        }
+        .green {
+            background-color: green;
+            border-right: 0;
+        }
+        .white {
+            width:70px;
+            border-left: 0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            text-align: center;
+            font-family: 'Gabarito', sans-serif;
+        }
+        h1 {
+            font-size: 5rem;
+            font-family: 'Open Sans', sans-serif;
+        }
+        p {
+            color:gray;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <h1>84%</h1>
+         <div class="load">
+             <div class="green"></div>
+             <div class="white"></div>
+         </div>
+         <p>Please wait while the application is loading ...</p>
+    </div>
+</body>
+</html>
